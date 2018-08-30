@@ -25,10 +25,6 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(ingredients)
-  if ingredients.find ("cheddar" || "gouda" || "camembert")
-      puts cheese
-  else
-    nil
-  end
+  ingredients.find ("cheddar" || "gouda" || "camembert")
 end
 
