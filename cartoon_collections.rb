@@ -24,10 +24,15 @@ def long_planeteer_calls(calls)
   end
 end
 
+
 def find_the_cheese(ingredients)
-  if ingredients.include? ("cheddar" || "gouda" || "camembert")
-      puts cheese
-  else
-    nil
+  counter = 0
+  ingredients.each do |ingredient|
+    if ingredient == "cheddar" || ingredient == "gouda" || ingredient = "camembert"
+      puts ingredients[counter]
+      counter += 1
+    else
+      nil
+    end
   end
 end
