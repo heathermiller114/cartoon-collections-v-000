@@ -26,6 +26,6 @@ end
 
 def find_the_cheese(ingredients)
   ingredients.find |ingredient|
-  ("cheddar" || "gouda" || "camembert")
+    ingredient == "cheddar" || ingredient == "gouda" || ingredient == "camembert"
 end
 
