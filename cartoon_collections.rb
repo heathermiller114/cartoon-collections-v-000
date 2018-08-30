@@ -29,7 +29,8 @@ def find_the_cheese(ingredients)
   ingredients.each do |ingredient|
     if ingredients.include? (cheese)
       puts cheese
-  else
-    nil
+    else
+      nil
+    end
   end
 end
