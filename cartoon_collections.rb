@@ -25,7 +25,7 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(ingredients)
-  ingredients.find |ingredient|
+  ingredients.find do |ingredient|
     ingredient == "cheddar" || ingredient == "gouda" || ingredient == "camembert"
 end
 
