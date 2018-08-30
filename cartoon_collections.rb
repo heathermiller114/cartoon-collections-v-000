@@ -25,23 +25,10 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(ingredients)
-  if ingredients.find? ("cheddar" || "gouda" || "camembert")
+  if ingredients.find ("cheddar" || "gouda" || "camembert")
       puts cheese
   else
     nil
   end
 end
 
-def find_the_cheese(ingredients)
-  counter = 0
-  ingredients.each do |ingredient|
-    while counter < ingredients.length
-      if ingredient == "cheddar" || ingredient == "gouda" || ingredient = "camembert"
-        return "#{(ingredients[counter])}"
-        counter += 1
-      else
-        nil
-      end
-    end
-  end
-end
