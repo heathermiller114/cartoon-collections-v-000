@@ -16,9 +16,9 @@ end
 
 def long_planeteer_calls(calls)
   calls.any? do |call|
-    call > word.lengt
-  
-    
+    call.length > 4
+    true
+  end
 end
 
 def find_the_cheese# code an argument here
