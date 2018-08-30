@@ -37,7 +37,7 @@ def find_the_cheese(ingredients)
   ingredients.each do |ingredient|
     while counter < ingredients.length
       if ingredient == "cheddar" || ingredient == "gouda" || ingredient = "camembert"
-        return "#{ingredient}""
+        return "#{ingredient}"
         counter += 1
       else
         nil
