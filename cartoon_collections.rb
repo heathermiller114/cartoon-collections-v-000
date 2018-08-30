@@ -29,7 +29,7 @@ def find_the_cheese(ingredients)
   counter = 0
   ingredients.each do |ingredient|
     if ingredient == "cheddar" || ingredient == "gouda" || ingredient = "camembert"
-      puts ingredients[counter]
+      puts (ingredients[counter])
       counter += 1
     else
       nil
