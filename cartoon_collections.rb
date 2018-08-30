@@ -27,6 +27,6 @@ end
 def find_the_cheese(ingredients)
   if ingredients.include? ("cheddar" || "gouda" || "camembert") == true
   else
-    "nil"
+    nil
   end
 end
